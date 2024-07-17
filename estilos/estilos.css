@@ -1,0 +1,218 @@
+.header{
+    font-family: Frederickatthegreat;
+    font-size: xx-large ;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 200px;
+    color:rgb(7, 22, 235);
+    border-radius: 10px;
+    border: 3px dashed rgb(7, 22, 235) ;   
+}
+.header img{
+    width: 150px;
+    height: auto;
+}
+@font-face {
+    font-family: "Frederickatthegreat" ;
+    src: url(../assets/fonts/FrederickatheGreat-Regular.ttf);
+}
+@font-face {
+    font-family: "Frederickatthegreat" ;
+    src: url(../assets/fonts/FrederickatheGreat-Regular.eot);
+}
+.lista {
+    list-style-type: none;
+    justify-content: space-between;
+    list-style-position: inside;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(7, 22, 235);
+}
+.lista li{
+    margin:10px;
+    font-family: Frederickatthegreat;
+    font-size: medium;
+    display: inline;
+}
+
+a{
+    color:rgb(7, 22, 235)
+}
+a:hover{
+    background-color: rgb(7, 22, 235);
+    color:white
+}
+.visited{
+    background-color: rgb(7, 22, 235);
+    color:white;
+}
+.visit{
+    background-color: white;
+    color: black;
+}
+section{
+    overflow:auto;
+    height: 1000px;
+    width: 100%;
+}
+
+.home{
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+}
+h2{
+    font-family: Frederickatthegreat;
+    font-size: xx-large;
+    color:rgb(7, 22, 235);
+}
+h3{
+    text-align: center;
+    font-family: Frederickatthegreat;
+    font-size: x-large;
+}
+.p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    text-align: center;
+}
+footer{
+    display: flex;
+    background-color: rgb(7, 22, 235);
+    justify-content: space-between;
+    height: auto;
+    width: 100%;
+    align-items: stretch;
+    color:white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-small;
+}
+footer img{
+    width: 30px;
+    height: 30px;
+}
+footer a{
+    color:white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-small;
+}
+footer a:hover{
+    color:black
+}
+
+
+.div{
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 90%;
+}
+.div img{
+    width: 150px;
+    height: 150px;
+   padding: 20px;
+}
+.productos{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: stretch;
+    margin: 30px;
+}
+
+.filas{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    margin: auto ;
+}
+.portada{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    text-align: center;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 60%;
+    width: 20%;
+    height: auto;
+    margin: auto;
+}
+.portada img{
+    width: 70%;
+    height: auto;
+}
+form{
+    text-align: center;
+    font-family: Frederickatthegreat;
+    font-size: large;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 15px;
+    padding: 15px;
+}
+form input {
+    color: black;
+    background-color: aquamarine;
+    border-radius: 10px;
+    border-color: blue;
+}
+form textarea{
+    color: black;
+    background-color: aquamarine;
+    border-radius: 10px;
+    border-color: blue;
+}
+
+.contacto{
+    display: flex;
+    justify-content: center;
+    align-items:stretch;
+    flex-direction: column;
+    padding-bottom: 20px;
+}
+
+
+.hijo{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.hijo img{
+    width: 300px;
+    height: 300px;
+}
+.aviso{
+    font-family: Frederickatthegreat;
+    font-size: xx-large;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+.aviso h2{
+    color:black;
+    font-size: 90%;
+}
